@@ -250,3 +250,52 @@ body{
 {
     box-shadow: 0px 0px 40px rgb(119, 147, 145);
 }
+.about-us
+{
+    background-color: rgb(38, 100, 79);
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding-top: 0px;
+}
+.about-left
+{
+         width: 700px;
+}
+.about-left
+{
+    display: flex;
+    align-items: center;
+}
+.about-us .about-left .text h1
+{
+       font-size: 100px;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       color: rgb(34, 10, 56);
+       filter: drop-shadow(0 0 0.40rem rgb(33, 121, 118));
+}
+.about-right
+{
+    width: 100%;
+    margin-left: 50px;
+    color: rgb(151, 193, 190);
+}
+.about-us .about-right .info
+{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+}
+.about-us .about-right .info h1 
+{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.about-us .about-right .info h2
+{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
