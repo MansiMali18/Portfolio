@@ -1,0 +1,123 @@
+:root{
+    --color-primary: blue;
+    --color-white: rgb(131, 177, 139);
+    --color-black:black;
+    --color-black-1:#212b38;
+    --color-dark-green:rgb(38, 100, 79);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Kaushan+Script&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.link{
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 18px;
+    padding: 20px;
+    color: #000;
+}
+body{
+    background-color: aliceblue;
+}
+.menu_bar
+{
+    background-color: rgb(20, 62, 48);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo
+{
+    color: var(--color-white);
+    font-size: 30px;
+    animation: animate 2s  forwards; 
+    margin-right: 20px;
+    font-family: Corinthia;
+    filter: drop-shadow(0 0 0.75rem rgb(129, 195, 210));
+
+}
+@keyframes animate { 
+    0% { 
+        width: 50px; 
+        height: 50px; 
+    } 
+
+    30% { 
+        width: 50px; 
+        height: 0px; 
+    } 
+
+    60% { 
+        width: 0px; 
+        height: 0px; 
+    } 
+} 
+
+.logo span{
+    color: rgb(160, 204, 204);
+    margin-left: 20px;
+}
+
+.menu_bar ul 
+{
+    list-style: none;
+    display: flex;
+    filter: drop-shadow(0 0 0.75rem rgb(129, 195, 210));
+
+}
+.menu_bar ul li
+{
+    padding: 10px 30px;
+    position: relative;
+}
+.menu_bar ul li a
+{
+    color: rgb(158, 207, 220);
+    text-decoration: none;
+    font-size:20px;
+    transition: all 0.3s;
+
+}
+.menu_bar ul li a:hover 
+{
+     color: rgb(38, 111, 135);
+}
+
+.drop-down
+{
+    display: none;
+
+}
+.drop-down ul:hover .drop-down
+{
+    display: block;
+    position: absolute;
+
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+.drop-down ul
+{
+     display: block;
+     margin: 10px;
+}
+.drop-down ul li
+{
+    width: 150px;
+    padding: 10px;
+}
+.fas
+{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
