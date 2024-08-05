@@ -121,3 +121,132 @@ body{
     margin-left: 10px;
     padding-top: 3px;
 }
+.main-container
+{
+    width: 100%;
+    
+}
+.info
+{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.left h1
+{
+    font-size: 30px;
+    width: 500px;
+    font-weight: bolder;
+    font-style: normal;
+    color:rgb(38, 12, 72);
+    text-shadow: 0 0 3px #9a819c, 0 0 5px #8e8ec9;
+}
+.left h2
+{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 20px;
+    text-shadow: 0 0 2px #7a99c5, 0 0 3px #58aaa7;
+    color: rgb(76, 150, 126);
+}
+.left h3{
+    font-size: 25px;
+    color: rgb(17, 79, 58);
+    margin-top: 80px;
+    font-weight: bold;
+    text-shadow: 0 0 2px #9a819c, 0 0 3px #8e8ec9;
+}
+.loader { 
+    width: 400px; 
+    top: 230px; 
+    position: absolute;  
+    border-bottom: 5px solid rgb(121, 13, 126); 
+    text-shadow: 0 0 3px #9a819c, 0 0 5px #8e8ec9;
+    overflow: hidden; 
+    animation: animate 2s linear forwards; 
+} 
+
+.contact-btn
+{
+    width: 140px;
+    margin-top: 50px;
+    height: 40px;
+    border: 0.5px solid rgb(82, 5, 75);
+    background-color: rgb(204, 152, 170);
+    box-shadow: 0px 0px 20px rgb(139, 100, 134);
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;;
+}
+.contact-btn:hover
+{
+    width: 145px;   
+    box-shadow: 0px 0px 25px rgb(139, 100, 134);
+
+}
+.resume-btn
+{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 5px 5px 5px 5px;
+    height: 40px;
+    border: 0.5px solid rgb(82, 5, 75);
+    background-color: rgb(204, 152, 170);
+    box-shadow: 0px 0px 20px rgb(139, 100, 134);
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.resume-btn:hover
+{
+    width: 210px;
+    box-shadow: 0px 0px 25px rgb(139, 100, 134);
+}
+.loader h1 { 
+    color: rgb(107, 50, 99); 
+} 
+
+
+@keyframes animate { 
+    0% { 
+        width: 0px; 
+        height: 0px; 
+    } 
+
+    30% { 
+        width: 50px; 
+        height: 0px; 
+    } 
+
+    60% { 
+        width: 50px; 
+        height: 80px; 
+    } 
+} 
+.left
+{
+    margin-left: 200px;
+    width: 700px;
+}
+.right
+{
+    margin-left: 200px;
+}
+.image
+{
+    width: 200px;
+    height: 300px;
+    /*box-shadow: 0px 0px 30px rgb(165, 197, 194);*/
+    filter: drop-shadow(0 0 0.75rem rgb(129, 195, 210));
+
+}
+.image:hover
+{
+    box-shadow: 0px 0px 40px rgb(119, 147, 145);
+}
